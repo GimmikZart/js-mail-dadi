@@ -17,12 +17,12 @@ var userMail = prompt("Scrivi qui la tua mail");
 
 // controllo che sia nella lista delle mail checkate tramite un ciclo
 
+var result = "login fallito";
+
 for (var i = 0; i < mailCheck.length; i++) {
-  if (userMail != mailCheck[i]){
-    var result = "autenticazione fallita";
-  } else if (userMail === mailCheck[i]) {
-    var result = "login effettuato";
+  if (userMail === mailCheck[i]){
+   result = "login riuscito";
   }
 }
 
-console.log(result);
+document.getElementById("stampa").innerHTML = result;
