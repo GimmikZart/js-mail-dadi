@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+header {
+  margin: 50px 25% 0 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#titoli {
+  margin: 100px 25% 0 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around ;
+}
+
+
+#dadi {
+  height: 500px;
+  margin: 20px 25%;
+  display: flex;
+  justify-content: space-around;
+  border: 2px soldi black;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  background-color: rgb(187, 187, 187);
+  border: 1px solid black;
+  border-radius: 5%;
+  box-shadow: inset 10px 10px 5px rgb(144, 144, 144),
+              inset -10px -10px 5px rgb(144, 144, 144);
+
+}
+
+.lancio {
+  font-size: 200px;
+  font-weight: bold;
+}
+
+#boxrisultato {
+  height: 150px;
+  margin: 20px 25% 100px;
+  background-color: rgb(130, 130, 130);
+  border: 2px solid black;
+}
+
+#risultato, #processo {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  font-size: 30px;
+  font-weight: bold;
+}
